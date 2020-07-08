@@ -1,0 +1,26 @@
+{% import "scripts.html" as scripts %}
+
+{% macro masthead() %}
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ config.baseurl }}/" title="Home" title="{{ config.title }}">
+              <img class="masthead-logo" src="{{ config.baseurl }}{{ config.extra.logo }}"/>
+            </a>
+            <small>{{ config.description }}</small>
+          </h3>
+        </div>
+      </div>
+{% endmacro masthead %}
+
+
+{% macro blog_comments() %}
+{% if site.disqus_short_name %}
+<div class="comments">
+  <h2>Comments</h2>
+  <div id="disqus_thread"></div>
+  {% scripts::disqus_thread() %}
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+{% endif %}
+{% endmacro blog_comments %}
