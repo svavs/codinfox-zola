@@ -1,0 +1,33 @@
+
+# Navigation (2nd level links supported)
+# nav = [
+#   { name = "Home", path = "/", haschild = false, ischild = false },
+#   { name = "Blog", path = "/blog/", haschild = true, ischild = false  },
+#   { name = "Categories", path = "/blog/categories/", haschild = false, ischild = true },
+#   { name = "Tags", path = "/blog/tags/", haschild = false, ischild = true },
+#   { name = "About", path = "/about/", haschild = false, ischild = false },
+#   { name = "Github Project", path = "http://codinfox.github.io/", haschild = false, ischild = false }
+# ]
+[[nav]]
+name = "Home"
+path = "/"
+
+[[nav]]
+name = "Blog"
+path = "/blog/"
+
+  [[sub]]
+  name = "Categories"
+  path = "/blog/categories/"
+
+  [[sub]]
+  name = "Tags"
+  path = "/blog/tags/"
+
+[[nav]]
+name = "About"
+path = "/about/"
+
+[[nav]]
+name = "Github Project"
+path = "http://codinfox.github.io/"

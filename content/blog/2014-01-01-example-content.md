@@ -1,7 +1,7 @@
----
-layout: post
-title: Example content
----
++++
+title = "Example content"
+template = "post.html"
++++
 
 
 <div class="message">

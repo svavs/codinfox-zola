@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "http://127.0.0.1:1111"
 
-title = "Another site"
+title = "Another beautiful Zola theme"
 description = "Learning to be Giant"
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -14,16 +14,20 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-[extra]
+###
 # Put all your custom variables here
-hero.image = "" # index.html
-hero.caption = "" # index.html
-disqus_short_name = "" # post.html
-logo = "/static/logo.png" # macros.html
-author.gravatar = "3c2986ad7ac1f2230ea3596f44563328" # sidebar.html
-author.description = "A passionate" # sidebar.html
-author.contact = "" # sidebar.html
-version = "0.0.1" # sidebar.html
+[extra]
+logo = "/logo.png" # macros.html
+version = "0.1.1" # sidebar.html
 copyrightyear = "2020" # sidebar.html
-author.name = "Silvano Sallese" # sidebar.html
-google_analytics_token = "" # scripts.html
+# Puglins
+mathjax = true # whether support mathjax
+google_analytics_token = "" # UA-00000000-1 leave blank if you don't want google analytics # scripts.html
+disqus_short_name = "your_short_name" # leave blank if you don't want disqus
+# Where are tags and categories displayed
+tag_page = "/blog/tags/"
+category_page = "/blog/categories/"
+# hero
+image = "/img/we_will_be_giants_by_yalestewart.jpg" # index.html
+caption = "Original Artwork Yale Stewart" # index.html
+#

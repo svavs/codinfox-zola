@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+
+{% block pagetitle %}
+    {{ head::titlesite(page_title = section.title) }}
+{% endblock pagetitle %}
+
+{% block navigation_list %}
+   {{ sidebar::nav(navlist = sidebar_nav.nav, page_permalink = section.permalink) }}
+{% endblock navigation_list %}
+
+{% block content %}
+	      <div class="page">
+        {% for year, posts in section.pages | group_by(attribute="year") %}
+            <h2>{{ year }}</h2>
+
+            <ul>
+            {% for post in posts %}
+                <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
+        {% endfor %}
+	      </div>
+{% endblock content %}

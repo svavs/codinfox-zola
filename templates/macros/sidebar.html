@@ -1,44 +1,44 @@
 
-{% macro sidebar() %}
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+{# {% macro sidebar() %} #}
+{# <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular #}
+{#      styles, `#sidebar-checkbox` for behavior. --> #}
+{# <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"> #}
 
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  {% self::personal_info() %}
+{# <!-- Toggleable sidebar --> #}
+{# <div class="sidebar" id="sidebar"> #}
+{#   {{ self::personal_info() }} #}
 
-  {% self::sidebar_nav() %}
+{#   {{ self::sidebar_nav() }} #}
 
-  {% self::copyright() %}
+{#   {{ self::copyright() }} #}
 
-  {% self::powered_by() %}
-</div>
-{% endmacro sidebar() %}
+{#   {{ self::powered_by() }} #}
+{# </div> #}
+{# {% endmacro sidebar %} #}
 
 
-{% macro personal_info() %}
+{% macro personal_info(gravatar, description, contacts) %}
   <div class="sidebar-item">
     <div class="sidebar-personal-info">
       <div class="sidebar-personal-info-section">
-        <a href="http://gravatar.com/{{ config.extra.author.gravatar }}">
-          <img src="http://www.gravatar.com/avatar/{{ config.extra.author.gravatar }}?s=350" title="View on Gravatar" alt="View on Gravatar" />
+        <a href="http://gravatar.com/{{ gravatar }}">
+          <img src="http://www.gravatar.com/avatar/{{ gravatar }}?s=350" title="View on Gravatar" alt="View on Gravatar" />
         </a>
       </div>
       <div class="sidebar-personal-info-section">
-        <p>{{ config.author.description }}</p>
+        <p>{{ description }}</p>
       </div>
-      {% if config.extra.author.contact %}
-      {% set len = config.extra.author.contact | length %}
+      {% if contacts %}
+      {% set len = contacts | length %}
       {% set current_index = 0 %}
       <div class="sidebar-personal-info-section">
         <p> Follow me:
-        {% for contact in config.extra.author.contact %}
-        {%   set iconname = contact[0] %}
-        {%   if contact[0] == 'email' %}
+        {% for contact in contacts %}
+        {%   set iconname = contact.name %}
+        {%   if contact.name == 'email' %}
         {%     set iconname = 'envelope' %}
         {%   endif %}
-        <a href="{{ contact[1] }}">
+        <a href="{{ contact.path }}">
           <i class="fa fa-{{ iconname }}" aria-hidden="true"></i>
         </a>
         {%   set current_index = current_index + 1 %}
@@ -51,46 +51,45 @@
   </div>
  {% endmacro personal_info %}
 
-{% macro sidebar_nav() %}
+{% macro nav(navlist, page_permalink) %}
   <nav class="sidebar-nav">
-    {% for nav in config.extra.nav %}
-      {% set is_relative = nav[1][0] | slice(start=0, end=0) %}
-      {% set url = nav[1][0] %}
+    {% for nav in navlist %}
+      {% set is_relative = nav.path | truncate(length=1, end="") %}
+      {% set url = nav.path %}
       {% if is_relative == '/' %}
-        {% set url = site.baseurl ~ nav[1][0]  %}
+        {% set url = config.base_url ~ nav.path  %}
       {% endif %}
 
-      {% set sub_len = nav[1] | length - 1 %} {# size of nav[1] minus 1 #}
-
-      <span class="{% if sub_len > 0 %}foldable{% endif %}">
-        <a class="sidebar-nav-item {% if page.url == nav[1][0] %}active{% endif %}" href="{{ url }}">
-          {{ nav[0] }}
+      <span class="{% if nav.haschild %}foldable{% endif %}">
+        <a class="sidebar-nav-item {% if page_permalink == nav.path %}active{% endif %}" href="{{ url }}">
+          {{ nav.name }}
         </a>
 
-        {% for i in (1..sub_len) %}
-          {% for sub_nav in nav[1][i] %}
-            {% set sub_is_relative = sub_nav[1] | slice(start=0, end=0) %}
-            {% set sub_url = sub_nav[1] %}
-            {% if sub_is_relative == '/' %}
-              {% set sub_url = site.baseurl ~ sub_nav[1] %}
-            {% endif %}
-              <a class="sidebar-nav-item sidebar-nav-item-sub {% if page.permalink == sub_nav[1] %}active{% endif %}" href="{{ sub_url }}">
-                {{ sub_nav[0] }}
-              </a>
-          {% endfor %}
-        {% endfor %}
+        {# {% set subs = nav.sub | length %} #}
+        {# {% for i in range(start=1, end=subs) %} #}
+        {#   {% for sub_nav in nav %} #}
+        {#     {% set sub_is_relative = sub_nav.path | truncate(length=1, end="") %} #}
+        {#     {% set sub_url = sub_nav.path %} #}
+        {#     {% if sub_is_relative == '/' %} #}
+        {#       {% set sub_url = config.base_url ~ sub_nav.path %} #}
+        {#     {% endif %} #}
+        {#       <a class="sidebar-nav-item sidebar-nav-item-sub {% if page_permalink == sub_nav.path %}active{% endif %}" href="{{ sub_url }}"> #}
+        {#         {{ sub_nav }} #}
+        {#       </a> #}
+        {#   {% endfor %} #}
+        {# {% endfor %} #}
       </span>
 
     {% endfor %}
 
     <span class="sidebar-nav-item">Currently v{{ config.extra.version }}</span>
   </nav>
-{% endmacro sidebar_nav %}
+{% endmacro nav %}
 
-{% macro copyright() %}
+{% macro copyright(author_name) %}
   <div class="sidebar-item">
     <p>
-    &copy; {{ config.extra.copyrightyear }} {{ config.extra.author.name }}. This work is liscensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.
+    &copy; {{ config.extra.copyrightyear }} {{ author_name }}. This work is liscensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.
     </p>
   </div>
 {% endmacro copyright %}

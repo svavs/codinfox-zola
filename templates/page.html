@@ -1,41 +1,16 @@
-{% import "scripts.html" as scripts %}
-{% import "macros.html" as macros %}
-{% import "head.html" as head %}
-{% import "sidebar.html" as sidebar %}
+{% extends "index.html" %}
 
-<!DOCTYPE html>
-<html lang="en-us">
+{% block pagetitle %}
+    {{ head::titlesite(page_title = page.title) }}
+{% endblock pagetitle %}
 
-  {% head::head() %}
+{% block navigation_list %}
+   {{ sidebar::nav(navlist = sidebar_nav.nav, page_permalink = page.permalink) }}
+{% endblock navigation_list %}
 
-  <body>
-
-    {% sidebar::sidebar() %}
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-
-      {% macros::masthead() %}
-
-      <div class="container content">
-
+{% block content %}
 	      <div class="page">
 	        <h1 class="page-title">{{ page.title }}</h1>
 	        {{ page.content }}
 	      </div>
-
-      </div>
-    </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    {% scripts::sidebar_script() %}
-
-    {% scripts::analytics_script() %}
-
-  </body>
-
-  {% scripts::disqus() %}
-
-</html>
+{% endblock content %}

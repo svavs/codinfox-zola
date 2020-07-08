@@ -1,6 +1,6 @@
 
 {% macro disqus() %}
-  {% if defined(config.extra.disqus_short_name) %}
+  {% if config.extra.disqus_short_name is defined %}
   <script id="dsq-count-scr" src="//{{ config.extra.disqus_short_name }}.disqus.com/count.js" async></script>
   {% endif %}
 {% endmacro disqus %}
@@ -26,7 +26,7 @@
         }, false);
       })(document);
     </script>
-{% endmacro sidebar_script() %}
+{% endmacro sidebar_script %}
 
 {% macro analytics_script() %}
     {% if site.google_analytics_token %}
@@ -52,4 +52,4 @@ var disqus_config = function () {
   (d.head || d.body).appendChild(s);
 })();
   </script>
-{% endmacro disqus_thread() %}
+{% endmacro disqus_thread %}

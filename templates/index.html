@@ -1,41 +1,78 @@
-{% import "scripts.html" as scripts %}
-{% import "macros.html" as macros %}
-{% import "head.html" as head %}
-{% import "sidebar.html" as sidebar %}
+{% import "macros/scripts.html" as scripts %}
+{% import "macros/macros.html" as macros %}
+{% import "macros/head.html" as head %}
+{% import "macros/sidebar.html" as sidebar %}
+
+{% set author = load_data(path="author.toml") %}
+{% set sidebar_nav = load_data(path="nav.toml") %}
 
 <!DOCTYPE html>
 <html lang="en-us">
 
-  {% head::head() %}
+  <head>
+    {{ head::links() }}
+    {{ head::meta() }}
+
+    {% block pagetitle %}
+    {{ head::titlesite(page_title = "Home") }}
+    {% endblock pagetitle %}
+
+    {{ head::css() }}
+
+    {{ head::icons() }}
+
+    {{ head::rss() }}
+
+    {{ head::mathjax() }}
+  </head>
 
   <body>
 
-    {% sidebar::sidebar() %}
+    {# sidebar #}
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+        styles, `#sidebar-checkbox` for behavior. -->
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+    <!-- Toggleable sidebar -->
+    <div class="sidebar" id="sidebar">
+      {{ sidebar::personal_info(gravatar = author.gravatar, description = author.description, contacts = author.contact) }}
+
+      {% block navigation_list %}
+      {{ sidebar::nav(navlist = sidebar_nav.nav, page_permalink = config.base_url) }}
+      {% endblock navigation_list %}
+
+      {{ sidebar::copyright(author_name = author.name) }}
+
+      {{ sidebar::powered_by() }}
+    </div>
+    {# ### #}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
 
-      {% macros::masthead() %}
+      {{ macros::masthead() }}
 
       <div class="container content">
 
+        {% block content %}
 	      <div class="hero">
-	        <img src="{{ config.baseurl }}{{ config.extra.hero.image }}" />
-	        <p>{{ config.extra.hero.caption }}</p>
+	        <img src="{{ config.base_url }}{{ config.extra.image }}" />
+	        <p>{{ config.extra.caption }}</p>
 	      </div>
+        {% endblock content %}
 
       </div>
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-    {% scripts::sidebar_script() %}
+    {{ scripts::sidebar_script() }}
 
-    {% scripts::analytics_script() %}
+    {{ scripts::analytics_script() }}
 
   </body>
 
-  {% scripts::disqus() %}
+  {{ scripts::disqus() }}
 
 </html>

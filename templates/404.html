@@ -1,37 +1,8 @@
-{% import "scripts.html" as scripts %}
-{% import "macros.html" as macros %}
-{% import "head.html" as head %}
-{% import "sidebar.html" as sidebar %}
+{% extends "index.html" %}
 
-<!DOCTYPE html>
-<html lang="en-us">
-
-  {% head::head() %}
-
-  <body>
-
-    {% sidebar::sidebar() %}
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-
-      {% macros::masthead() %}
-
-      <div class="container content">
-
+{% block content %}
 	      <div class="page">
 	        <h1 class="page-title">404: Page not found</h1>
-	        <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ config.baseurl }}/">Head back home</a> to try finding it again.</p>
+	        <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ config.base_url }}/">Head back home</a> to try finding it again.</p>
 	      </div>
-
-      </div>
-    </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    {% scripts::sidebar_script() %}
-    {% scripts::analytics_script() %}
-  </body>
-  {% scripts::disqus() %}
-</html>
+{% endblock content %}
