@@ -2,32 +2,136 @@
 base_url = "http://127.0.0.1:1111"
 
 title = "Another beautiful Zola theme"
-description = "Learning to be Giant"
+description = "Lead by Curiosity"
 
-# Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
+# The default language; used in feeds.
+default_language = "en"
+
+# The site theme to use.
+# theme = "codinfox-zola"
 
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
+# The theme to use for code highlighting.
+# See below for list of allowed values.
+#highlight_theme = "base16-ocean-dark"
+
+# When set to "true", a feed is automatically generated.
+generate_feed = false
+
+# The filename to use for the feed. Used as the template filename, too.
+# Defaults to "atom.xml", which has a builtin template that renders an Atom 1.0 feed.
+# There is also a builtin template "rss.xml" that renders an RSS 2.0 feed.
+# feed_filename = "atom.xml"
+
+# The number of articles to include in the feed. All items are included if
+# this limit is not set (the default).
+# feed_limit = 20
+
+# When set to "true", files in the `static` directory are hard-linked. Useful for large
+# static files. Note that for this to work, both `static` and the
+# output directory need to be on the same filesystem. Note that the theme's `static`
+# files are always copied, regardles of this setting.
+# hard_link_static = false
+
+# The taxonomies to be rendered for the site and their configuration.
+# Example:
+#     taxonomies = [
+#       {name = "tags", feed = true}, # each tag will have its own feed
+#       {name = "tags", lang = "fr"}, # you can have taxonomies with the same name in multiple languages
+#       {name = "categories", paginate_by = 5},  # 5 items per page for a term
+#       {name = "authors"}, # Basic definition: no feed or pagination
+#     ]
+#
+# taxonomies = [
+#   {}
+# ]
+
+# The additional languages for the site.
+# Example:
+#     languages = [
+#       {code = "fr", feed = true}, # there will be a feed for French content
+#       {code = "fr", search = true}, # there will be a Search Index for French content
+#       {code = "it"}, # there won't be a feed for Italian content
+#     ]
+#
+#languages = []
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
+# A list of glob patterns specifying asset files to ignore when the content
+# directory is processed. Defaults to none, which means that all asset files are
+# copied over to the `public` directory.
+# Example:
+#     ignored_content = ["*.{graphml,xlsx}", "temp.*"]
+#ignored_content = []
+
+# A list of directories used to search for additional `.sublime-syntax` files.
+#extra_syntaxes = []
+
+# Optional translation object. The key if present should be a language code.
+# Example:
+#     default_language = "fr"
+#
+#     [translations]
+#     [translations.fr]
+#     title = "Un titre"
+#
+#     [translations.en]
+#     title = "A title"
+
+# Configuration of the link checker.
+#[link_checker]
+# Skip link checking for external URLs that start with these prefixes
+#skip_prefixes = [
+#    "http://[2001:db8::]/",
+#]
+
+# Skip anchor checking for external URLs that start with these prefixes
+#skip_anchor_prefixes = [
+#    "https://caniuse.com/",
+#]
+
+# Various slugification strategies, see below for details
+# Defauls to everything being a slug
+# [slugify]
+# paths = "on"
+# taxonomies = "on"
+# anchors = "on"
+
+# Optional translation object. Keys should be language codes.
+#[translations]
 
 ###
 # Put all your custom variables here
 [extra]
-logo = "/logo.png" # macros.html
-version = "0.1.1" # sidebar.html
-copyrightyear = "2020" # sidebar.html
+logo = "/mylogo_2.png"
+#logo = "/mylogo_1b.png"
+
+version = "0.9.1"
+copyrightyear = "2020"
+
 # Puglins
 mathjax = true # whether support mathjax
-google_analytics_token = "" # UA-00000000-1 leave blank if you don't want google analytics # scripts.html
+google_analytics_token = "" # UA-00000000-1 leave blank if you don't want google analytics
 disqus_short_name = "your_short_name" # leave blank if you don't want disqus
+
 # Where are tags and categories displayed
 tag_page = "/blog/tags/"
 category_page = "/blog/categories/"
+
 # hero
-image = "/img/we_will_be_giants_by_yalestewart.jpg" # index.html
-caption = "Original Artwork Yale Stewart" # index.html
+#image = "/img/we_will_be_giants_by_yalestewart.jpg"
+#caption = "Original Artwork Yale Stewart"
+#caption = "Original Artwork &copy; <a href=\"http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475\">Yale Stewart</a>"
+#image = "/img/curiosity_by_elementalspirits_dci8yl7.png"
+#caption = "Original Artwork &copy; <a href=\"https://www.deviantart.com/elementalspirits/art/Curiosity-756245275\">ElementalSpirits</a>"
+image = "/img/curiosity_by_starsinmyfingertips_dakioyj-fullview.jpg"
+caption = "Original Artwork &copy; <a href=\"https://www.deviantart.com/starsinmyfingertips/art/Curiosity-639126235\">2016 - 2020 StarsInMyFingertips</a>"
 #

@@ -1,7 +1,8 @@
 # About/contact
 #[author]
 name = "Silvano Sallese" # sidebar.html
-description = "A passionate <strong>developer and researcher</strong>, learning to be a giant." # sidebar.html
+# description = "A passionate <span class=\"codinfox-changing-keywords\"><b class=\"visible\">developer</b><b class=\"hidden\">researcher</b></span>, lead by curiosity."
+description = "A passionate <strong>developer and researcher</strong>, lead by curiosity."
 gravatar = "955199a8639b75e98f6efd05e71727da" # md5 hash of your email address # sidebar.html
 
 #[author.contact] # sidebar.html
@@ -10,5 +11,8 @@ contact = [
   { name = "github", path = "https://github.com/svavs" },
   # { name = "facebook", path = "https://" },
   { name = "twitter", path = "https://twitter.com/svavs" },
+  { name = "instagram", path = "https://instagram.com/svavs" },
+  { name = "lastfm", path = "https://www.last.fm/user/svavsa" },
+  # { name = "tumblr", path = "http://svavs.tumblr.com/" },
   { name = "email", path = "http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=" }
 ]
