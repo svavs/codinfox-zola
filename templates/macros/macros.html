@@ -15,7 +15,7 @@
 
 
 {% macro blog_comments() %}
-{% if site.disqus_short_name %}
+{% if config.extra.disqus_short_name %}
 <div class="comments">
   <h2>Comments</h2>
   <div id="disqus_thread"></div>

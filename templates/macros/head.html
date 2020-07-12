@@ -39,7 +39,7 @@
 {% endmacro title %}
 
 {% macro mathjax() %}
-  {% if site.mathjax %}
+  {% if config.extra.mathjax %}
   <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"> </script>
   <script type="text/x-mathjax-config">
 MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } });
@@ -47,20 +47,3 @@ MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], proces
   {% endif %}
 {% endmacro mathjax %}
 
-{# head #}
-{# {% macro head() %} #}
-{# <head> #}
-{#   {{ head::links() }} #}
-{#   {{ head::meta() }} #}
-
-{#   {{ head::titlesite() }} #}
-
-{#   {{ head::css() }} #}
-
-{#   {{ head::icons() }} #}
-
-{#   {{ head::rss() }} #}
-
-{#   {{ head::mathjax() }} #}
-{# </head> #}
-{# {% endmacro head %} #}
