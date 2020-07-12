@@ -58,7 +58,7 @@
         {% block content %}
 	      <div class="hero">
 	        <img src="{{ config.base_url }}{{ config.extra.image }}" />
-	        <p>{{ config.extra.caption }}</p>
+	        <p>{{ config.extra.caption | safe }}</p>
 	      </div>
         {% endblock content %}
 
