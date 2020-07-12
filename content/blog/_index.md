@@ -46,12 +46,12 @@ render = true
 # Useful for the same reason as `render` but when you don't want a 404 when
 # landing on the root section page.
 # Example: redirect_to = "documentation/content/overview"
-#redirect_to = 
+#redirect_to =
 
 # If set to "true", the section will pass its pages on to the parent section. Defaults to `false`.
 # Useful when the section shouldn't split up the parent section, like
 # sections for each year under a posts section.
-transparent = false
+#transparent = false
 
 # Use aliases if you are moving content but want to redirect previous URLs to the
 # current one. This takes an array of paths, not URLs.
@@ -60,3 +60,5 @@ transparent = false
 # Your own data.
 #[extra]
 +++
+
+This is the page listing the blog posts ordered by year.
