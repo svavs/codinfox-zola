@@ -1,22 +1,3 @@
-
-{# {% macro sidebar() %} #}
-{# <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular #}
-{#      styles, `#sidebar-checkbox` for behavior. --> #}
-{# <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"> #}
-
-{# <!-- Toggleable sidebar --> #}
-{# <div class="sidebar" id="sidebar"> #}
-{#   {{ self::personal_info() }} #}
-
-{#   {{ self::sidebar_nav() }} #}
-
-{#   {{ self::copyright() }} #}
-
-{#   {{ self::powered_by() }} #}
-{# </div> #}
-{# {% endmacro sidebar %} #}
-
-
 {% macro personal_info(gravatar, description, contacts) %}
   <div class="sidebar-item">
     <div class="sidebar-personal-info">
@@ -26,13 +7,13 @@
         </a>
       </div>
       <div class="sidebar-personal-info-section">
-        <p>{{ description }}</p>
+        <p>{{ description | safe }}</p>
       </div>
       {% if contacts %}
       {% set len = contacts | length %}
       {% set current_index = 0 %}
       <div class="sidebar-personal-info-section">
-        <p> Follow me:
+        <p> Follow me: <br />
         {% for contact in contacts %}
         {%   set iconname = contact.name %}
         {%   if contact.name == 'email' %}
@@ -53,31 +34,33 @@
 
 {% macro nav(navlist, page_permalink) %}
   <nav class="sidebar-nav">
-    {% for nav in navlist %}
-      {% set is_relative = nav.path | truncate(length=1, end="") %}
-      {% set url = nav.path %}
+    {% for n in navlist %}
+      {% set is_relative = n.path | truncate(length=1, end="") %}
+      {% set url = n.path %}
       {% if is_relative == '/' %}
-        {% set url = config.base_url ~ nav.path  %}
+        {% set url = config.base_url ~ n.path  %}
       {% endif %}
 
-      <span class="{% if nav.haschild %}foldable{% endif %}">
-        <a class="sidebar-nav-item {% if page_permalink == nav.path %}active{% endif %}" href="{{ url }}">
-          {{ nav.name }}
+      <span class="{% if n.haschild %}foldable{% endif %}">
+        <a class="sidebar-nav-item {% if page_permalink == n.path %}active{% endif %}" href="{{ url }}">
+          {{ n.name }}
         </a>
 
-        {# {% set subs = nav.sub | length %} #}
-        {# {% for i in range(start=1, end=subs) %} #}
-        {#   {% for sub_nav in nav %} #}
-        {#     {% set sub_is_relative = sub_nav.path | truncate(length=1, end="") %} #}
-        {#     {% set sub_url = sub_nav.path %} #}
-        {#     {% if sub_is_relative == '/' %} #}
-        {#       {% set sub_url = config.base_url ~ sub_nav.path %} #}
-        {#     {% endif %} #}
-        {#       <a class="sidebar-nav-item sidebar-nav-item-sub {% if page_permalink == sub_nav.path %}active{% endif %}" href="{{ sub_url }}"> #}
-        {#         {{ sub_nav }} #}
-        {#       </a> #}
-        {#   {% endfor %} #}
-        {# {% endfor %} #}
+        {% if n.haschild %}
+          {% set subs = n.sub | length %}
+          {% for i in range(start=1, end=subs) %}
+            {% for sub_nav in n.sub %}
+              {% set sub_is_relative = sub_nav.path | truncate(length=1, end="") %}
+              {% set sub_url = sub_nav.path %}
+              {% if sub_is_relative == '/' %}
+                {% set sub_url = config.base_url ~ sub_nav.path %}
+              {% endif %}
+              <a class="sidebar-nav-item sidebar-nav-item-sub {% if page_permalink == sub_nav.path %}active{% endif %}" href="{{ sub_url }}">
+                {{ sub_nav.name }}
+              </a>
+            {% endfor %}
+          {% endfor %}
+        {% endif %}
       </span>
 
     {% endfor %}
@@ -97,7 +80,7 @@
 {% macro powered_by() %}
   <div class="sidebar-item">
     <p>
-    Powered by <a href="https://www.getzola.org">Zola</a> and <a href="http://codinfox.github.io">codinfox-lanyon</a>
+    Powered by <a href="https://www.getzola.org">Zola</a>
     </p>
   </div>
  {% endmacro powered_by %}

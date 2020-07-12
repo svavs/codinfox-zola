@@ -6,8 +6,9 @@
 #   { name = "Categories", path = "/blog/categories/", haschild = false, ischild = true },
 #   { name = "Tags", path = "/blog/tags/", haschild = false, ischild = true },
 #   { name = "About", path = "/about/", haschild = false, ischild = false },
-#   { name = "Github Project", path = "http://codinfox.github.io/", haschild = false, ischild = false }
+#   { name = "Github Project", path = "http://svavs.github.io/", haschild = false, ischild = false }
 # ]
+
 [[nav]]
 name = "Home"
 path = "/"
@@ -15,12 +16,13 @@ path = "/"
 [[nav]]
 name = "Blog"
 path = "/blog/"
+haschild = true
 
-  [[sub]]
+  [[nav.sub]]
   name = "Categories"
   path = "/blog/categories/"
 
-  [[sub]]
+  [[nav.sub]]
   name = "Tags"
   path = "/blog/tags/"
 
