@@ -10,6 +10,10 @@
 
 {% block content %}
 	      <div class="page">
+        {{ section.content | safe }}
+
+        Number of pages in the Blog section: {{ section.pages | length }}
+
         {% for year, posts in section.pages | group_by(attribute="year") %}
             <h2>{{ year }}</h2>
 
