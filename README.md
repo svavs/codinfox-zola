@@ -24,6 +24,5 @@ Open sourced under the [MIT license](LICENSE.md).
 
 # TODO
  - changing word animation for the sidebar description
- - highilight code syntax (correct the example-content blog post)
  - related or latest posts in post.html
  - recaptcha for hiding email address link (https://developers.google.com/recaptcha/intro)
