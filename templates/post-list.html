@@ -1,0 +1,53 @@
+{% extends "index.html" %}
+
+{% block pagetitle %}
+    {{ head::titlesite(page_title = section.title) }}
+{% endblock pagetitle %}
+
+{% block navigation_list %}
+   {{ sidebar::nav(navlist = sidebar_nav.nav, page_permalink = section.permalink) }}
+{% endblock navigation_list %}
+
+{% block content %}
+<div class="posts">
+  {% for post in paginator.pages %}
+    <div class="post">
+        <h1 class="post-title">
+        <a href="{{ post.permalink }}">
+            {{ post.title }}
+        </a>
+        </h1>
+
+        <span class="post-date">{{ post.date | date(format="%d %B %Y") }}</span>
+        {% if post.taxonomies.tags %} |
+            {% for tag in post.taxonomies.tags %}
+            <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}" class="post-tag">{{ tag }}</a>
+            {% endfor %}
+        {% endif %}
+
+        <article>
+            {{ post.summary | safe }}
+        <article>
+        <div class="post-more">
+            {% if config.extra.disqus_short_name %}
+                <a href="{{ post.permalink }}#disqus_thread"> <i class="fa fa-comments" aria-hidden="true"></i>Comment</a>&nbsp;
+            {% endif %}
+            <a href="{{ post.permalink }}"><i class="fa fa-plus-circle" aria-hidden="true"></i>Read more</a>
+        </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next %}
+    <a class="pagination-item older" href="{{ paginator.next }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous %}
+    <a class="pagination-item newer" href="{{ paginator.previous }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+{% endblock content %}
