@@ -11,17 +11,5 @@
 {% block content %}
 	      <div class="page">
         {{ section.content | safe }}
-
-        Number of pages in the Blog section: {{ section.pages | length }}
-
-        {% for year, posts in section.pages | group_by(attribute="year") %}
-            <h2>{{ year }}</h2>
-
-            <ul>
-            {% for post in posts %}
-                <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
-            {% endfor %}
-            </ul>
-        {% endfor %}
 	      </div>
 {% endblock content %}
