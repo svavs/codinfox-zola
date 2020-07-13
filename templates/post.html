@@ -5,9 +5,9 @@
           <h1 class="post-title">{{ page.title }}</h1>
           <span class="post-date">{{ page.date }}</span>
           {% if page.taxonomies.tags %} |
-          {% for tag in page.taxonomies.tags %}
-          <a href="{{ config.base_url }}/tags/{{ tag  }}" class="post-tag">{{ tag }}</a>
-          {% endfor %}
+            {% for tag in page.taxonomies.tags %}
+            <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}" class="post-tag">{{ tag }}</a>
+            {% endfor %}
           {% endif %}
           <article>
             {{ page.content | safe }}
