@@ -13,6 +13,6 @@ contact = [
   { name = "twitter", path = "https://twitter.com/svavs" },
   { name = "instagram", path = "https://instagram.com/svavs" },
   { name = "lastfm", path = "https://www.last.fm/user/svavsa" },
-  # { name = "tumblr", path = "http://svavs.tumblr.com/" },
+  { name = "tumblr", path = "http://svavs.tumblr.com/" },
   { name = "email", path = "http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=" }
 ]
