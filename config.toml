@@ -125,15 +125,11 @@ google_analytics_token = "" # UA-00000000-1 leave blank if you don't want google
 disqus_short_name = "your_short_name" # leave blank if you don't want disqus
 
 # Where are tags and categories displayed
-tag_page = "/blog/tags/"
-category_page = "/blog/categories/"
+tag_page = "/tags/"
+category_page = "/categories/"
 
 # hero
-#image = "/img/we_will_be_giants_by_yalestewart.jpg"
-#caption = "Original Artwork Yale Stewart"
-#caption = "Original Artwork &copy; <a href=\"http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475\">Yale Stewart</a>"
 #image = "/img/curiosity_by_elementalspirits_dci8yl7.png"
 #caption = "Original Artwork &copy; <a href=\"https://www.deviantart.com/elementalspirits/art/Curiosity-756245275\">ElementalSpirits</a>"
-image = "/img/curiosity_by_starsinmyfingertips_dakioyj-fullview.jpg"
 caption = "Original Artwork &copy; <a href=\"https://www.deviantart.com/starsinmyfingertips/art/Curiosity-639126235\">2016 - 2020 StarsInMyFingertips</a>"
 #
