@@ -8,10 +8,10 @@ sort_by = "date"
 
 # Used by the parent section to order its subsections.
 # Lower values have higher priority.
-weight = 0
+#weight = 0
 
 # Template to use to render this section page.
-template = "section.html"
+template = "post-list.html"
 
 # The given template is applied to ALL pages below the section, recursively.
 # If you have several nested sections, each with a page_template set, the page
@@ -32,15 +32,15 @@ paginate_path = "page"
 # a header.
 # The default template can be overridden by creating an `anchor-link.html` file in the `templates` directory.
 # This value can be "left", "right" or "none".
-insert_anchor_links = "none"
+#insert_anchor_links = "none"
 
 # If set to "true", the section pages will be in the search index. This is only used if
 # `build_search_index` is set to "true" in the Zola configuration file.
-in_search_index = true
+#in_search_index = true
 
 # If set to "true", the section homepage is rendered.
 # Useful when the section is used to organize pages (not used directly).
-render = true
+#render = true
 
 # This determines whether to redirect when a user lands on the section. Defaults to not being set.
 # Useful for the same reason as `render` but when you don't want a 404 when
@@ -61,4 +61,4 @@ render = true
 #[extra]
 +++
 
-This is the page listing the blog posts ordered by year.
+This is the page listing the blog posts sorted by date.
