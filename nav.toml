@@ -32,4 +32,4 @@ path = "/about/"
 
 [[nav]]
 name = "Github Project"
-path = "http://svavs.github.com/codinfox-zola"
+path = "https://github.com/svavs/codinfox-zola"
