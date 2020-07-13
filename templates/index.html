@@ -57,7 +57,7 @@
 
         {% block content %}
 	      <div class="hero">
-	        <img src="{{ config.base_url }}{{ config.extra.image }}" />
+          <img src="{{ get_url(path='/img/curiosity_by_starsinmyfingertips_dakioyj-fullview.jpg') }}" />
 	        <p>{{ config.extra.caption | safe }}</p>
 	      </div>
         {% endblock content %}
