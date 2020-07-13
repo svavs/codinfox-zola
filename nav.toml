@@ -20,11 +20,11 @@ haschild = true
 
   [[nav.sub]]
   name = "Categories"
-  path = "/blog/categories/"
+  path = "/categories/"
 
   [[nav.sub]]
   name = "Tags"
-  path = "/blog/tags/"
+  path = "/tags/"
 
 [[nav]]
 name = "About"
@@ -32,4 +32,4 @@ path = "/about/"
 
 [[nav]]
 name = "Github Project"
-path = "http://codinfox.github.io/"
+path = "http://svavs.github.com/codinfox-zola"
