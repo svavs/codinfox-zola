@@ -24,6 +24,7 @@ Open sourced under the [MIT license](LICENSE.md).
 
 # TODO
  - changing word animation for the sidebar description
+ - highilight code syntax (correct the example-content blog post)
  - blog page with post listing and pagination
  - define tags with taxonomies
  - related posts in post.html
