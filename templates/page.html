@@ -10,7 +10,9 @@
 
 {% block content %}
 	      <div class="page">
+          {% block page_content %}
 	        <h1 class="page-title">{{ page.title }}</h1>
 	        {{ page.content | safe }}
+          {% endblock page_content %}
 	      </div>
 {% endblock content %}

@@ -1,15 +1,15 @@
 {% extends "page.html" %}
 
 {% block pagetitle %}
-    {% set t = config.title ~ "Tags" %}
-    {{ head::titlesite(page_title = t) }}
+    {{ head::titlesite(page_title = "Tags") }}
 {% endblock pagetitle %}
 
 {% block navigation_list %}
    {{ sidebar::nav(navlist = sidebar_nav.nav, page_permalink = current_url) }}
 {% endblock navigation_list %}
 
-{% block content %}
+{% block page_content %}
+<h1 class="page-title">{{ "Tags" }}</h1>
 <div class="tags-expo">
     <div class="tags-expo-list">
         {% for tag in terms %}
@@ -33,4 +33,4 @@
         {% endfor %}
     </div>
 </div>
-{% endblock content %}
+{% endblock page_content %}

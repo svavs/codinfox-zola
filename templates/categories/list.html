@@ -9,7 +9,8 @@
    {{ sidebar::nav(navlist = sidebar_nav.nav, page_permalink = current_url) }}
 {% endblock navigation_list %}
 
-{% block content %}
+{% block page_content %}
+<h1 class="page-title">{{ "Categories" }}</h1>
 <div class="tags-expo">
     <div class="tags-expo-list">
         {% for category in terms %}
@@ -33,4 +34,4 @@
         {% endfor %}
     </div>
 </div>
-{% endblock content %}
+{% endblock page_content %}

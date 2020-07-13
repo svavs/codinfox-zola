@@ -4,9 +4,9 @@
 	      <div class="post">
           <h1 class="post-title">{{ page.title }}</h1>
           <span class="post-date">{{ page.date }}</span>
-          {% if page.tags %} |
-          {% for tag in page.taxonomies %}
-          <a href="{{ config.base_url }}{#{{ page.tag_page }}#}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+          {% if page.taxonomies.tags %} |
+          {% for tag in page.taxonomies.tags %}
+          <a href="{{ config.base_url }}/tags/{{ tag  }}" class="post-tag">{{ tag }}</a>
           {% endfor %}
           {% endif %}
           <article>
@@ -19,7 +19,7 @@
           <ul class="related-posts">
             {# {% set limit = 3 %} #}
             {# {% set count = 0 %} #}
-            {# {% for post in section.toc %} #}
+            {# {% for post in related.posts %} #}
             {# <li> #}
             {#   <h3> #}
             {#     <a href="{{ page.permalink }}"> #}
