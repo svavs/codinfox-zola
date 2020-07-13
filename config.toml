@@ -44,10 +44,12 @@ generate_feed = false
 #       {name = "categories", paginate_by = 5},  # 5 items per page for a term
 #       {name = "authors"}, # Basic definition: no feed or pagination
 #     ]
-#
-# taxonomies = [
-#   {}
-# ]
+# There are five variables to set:
+#  name = "categories", paginate_by = "", paginate_path = "", feed = true, lang = "en"
+taxonomies = [
+  {name = "tags", lang = "en"},
+  {name = "categories", feed = true, lang = "en"},
+]
 
 # The additional languages for the site.
 # Example:
