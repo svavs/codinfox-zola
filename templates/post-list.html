@@ -4,6 +4,10 @@
     {{ head::titlesite(page_title = section.title) }}
 {% endblock pagetitle %}
 
+{% block masthead %}
+{{ macros::masthead(current_url=paginator.base_url) }}
+{% endblock masthead %}
+
 {% block navigation_list %}
    {{ sidebar::nav(navlist = sidebar_nav.nav, page_permalink = section.permalink) }}
 {% endblock navigation_list %}

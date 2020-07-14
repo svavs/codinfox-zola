@@ -1,6 +1,6 @@
 {% import "macros/scripts.html" as scripts %}
 
-{% macro masthead() %}
+{% macro masthead(current_url) %}
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
@@ -8,6 +8,25 @@
               <img class="masthead-logo" src="{{ config.base_url }}{{ config.extra.logo }}"/>
             </a>
             <small>{{ config.description }}</small>
+            {% if config.languages %}
+              <small class="multilingual">
+                {% set deflang = true %}
+                {% for lang in config.languages %}
+                  {% if current_url is not containing(lang.code) %}
+                    <a href="{{ current_url | replace(from=config.base_url, to=config.base_url ~ "/" ~ lang.code) }}">{{ lang.code }}</a>
+                  {% else %}
+                    {{ lang.code }}
+                    {% set_global deflang = false %}
+                  {% endif %}
+                {% endfor %}
+
+                {% if deflang %}
+                  | {{ config.default_language }}
+                {% else %}
+                  | <a href="{{ current_url | replace(from=lang ~ "/", to="") }}">{{ config.default_language }}</a>
+                {% endif %}
+              </small>
+            {% endif %}
           </h3>
         </div>
       </div>

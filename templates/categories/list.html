@@ -5,6 +5,10 @@
     {{ head::titlesite(page_title = t) }}
 {% endblock pagetitle %}
 
+{% block masthead %}
+{{ macros::masthead(current_url=current_url) }}
+{% endblock masthead %}
+
 {% block navigation_list %}
    {{ sidebar::nav(navlist = sidebar_nav.nav, page_permalink = current_url) }}
 {% endblock navigation_list %}

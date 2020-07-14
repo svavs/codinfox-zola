@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "http://127.0.0.1:1111"
 
-title = "Another beautiful Zola theme"
+title = "The most beautiful Zola theme"
 description = "Lead by Curiosity"
 
 # The default language; used in feeds.
@@ -19,7 +19,7 @@ highlight_code = true
 #highlight_theme = "base16-ocean-dark"
 
 # When set to "true", a feed is automatically generated.
-generate_feed = false
+generate_feed = true
 
 # The filename to use for the feed. Used as the template filename, too.
 # Defaults to "atom.xml", which has a builtin template that renders an Atom 1.0 feed.
@@ -49,6 +49,7 @@ generate_feed = false
 taxonomies = [
   {name = "tags", lang = "en"},
   {name = "categories", feed = true, lang = "en"},
+  {name = "categorie", feed = true, lang = "it"},
 ]
 
 # The additional languages for the site.
@@ -59,7 +60,9 @@ taxonomies = [
 #       {code = "it"}, # there won't be a feed for Italian content
 #     ]
 #
-#languages = []
+languages = [
+  {code = "it", feed = true, search = false},
+]
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -114,7 +117,6 @@ build_search_index = true
 # Put all your custom variables here
 [extra]
 logo = "/mylogo_2.png"
-#logo = "/mylogo_1b.png"
 
 version = "0.9.1"
 copyrightyear = "2020"

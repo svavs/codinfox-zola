@@ -1,5 +1,9 @@
 {% extends "index.html" %}
 
+{% block pagetitle %}
+{{ head::titlesite(page_title = "Not fount") }}
+{% endblock pagetitle %}
+
 {% block content %}
 	      <div class="page">
 	        <h1 class="page-title">404: Page not found</h1>

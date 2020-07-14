@@ -51,7 +51,9 @@
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
 
-      {{ macros::masthead() }}
+      {% block masthead %}
+      {{ macros::masthead(current_url=config.base_url) }}
+      {% endblock masthead %}
 
       <div class="container content">
 
