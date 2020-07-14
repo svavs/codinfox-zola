@@ -42,7 +42,7 @@
       {% endif %}
 
       <span class="{% if n.haschild %}foldable{% endif %}">
-        <a class="sidebar-nav-item {% if page_permalink == n.path %}active{% endif %}" href="{{ url }}">
+        <a class="sidebar-nav-item {% if page_permalink == url %}active{% endif %}" href="{{ url }}">
           {{ n.name }}
         </a>
 
@@ -55,7 +55,7 @@
               {% if sub_is_relative == '/' %}
                 {% set sub_url = config.base_url ~ sub_nav.path %}
               {% endif %}
-              <a class="sidebar-nav-item sidebar-nav-item-sub {% if page_permalink == sub_nav.path %}active{% endif %}" href="{{ sub_url }}">
+              <a class="sidebar-nav-item sidebar-nav-item-sub {% if page_permalink == sub_url %}active{% endif %}" href="{{ sub_url }}">
                 {{ sub_nav.name }}
               </a>
             {% endfor %}
