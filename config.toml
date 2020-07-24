@@ -135,3 +135,6 @@ category_page = "/categories/"
 #caption = "Original Artwork &copy; <a href=\"https://www.deviantart.com/elementalspirits/art/Curiosity-756245275\">ElementalSpirits</a>"
 caption = "Original Artwork &copy; <a href=\"https://www.deviantart.com/starsinmyfingertips/art/Curiosity-639126235\">2016 - 2020 StarsInMyFingertips</a>"
 #
+
+# show or not the reading time based on https://help.medium.com/hc/en-us/articles/214991667-Read-time
+read_time = true
