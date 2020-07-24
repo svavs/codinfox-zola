@@ -1,0 +1,33 @@
+{% extends "page.html" %}
+
+{% block pagetitle %}
+  {% set t = "Articles in the " ~ term.name ~ "category" %}
+  {{ head::titlesite(page_title = t) }}
+{% endblock pagetitle %}
+
+{% block masthead %}
+{{ macros::masthead(current_url=current_url) }}
+{% endblock masthead %}
+
+{% block navigation_list %}
+  {{ sidebar::nav(navlist = sidebar_nav.nav, page_permalink = current_url) }}
+{% endblock navigation_list %}
+
+{% block page_content %}
+  <h1 class="page-title">{{ "Articoli sotto la categoria " ~ term.name }}</h1>
+  <div class="tags-expo">
+    <div class="tags-expo-section">
+        <h2 id="{{ term.name }}">{{ term.name }}</h2>
+        <ul class="tags-expo-posts">
+            {% for post in term.pages %}
+            <a class="post-title" href="{{ post.permalink }}">
+                <li>
+                    {{ post.title }}
+                    <small class="post-date">{{ post.date | date(format="%d %B %Y") }}</small>
+                </li>
+            </a>
+            {% endfor %}
+        </ul>
+    </div>
+  </div>
+{% endblock page_content %}

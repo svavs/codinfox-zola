@@ -48,6 +48,7 @@ generate_feed = true
 #  name = "categories", paginate_by = "", paginate_path = "", feed = true, lang = "en"
 taxonomies = [
   {name = "tags", lang = "en"},
+  {name = "tags", lang = "it"},
   {name = "categories", feed = true, lang = "en"},
   {name = "categorie", feed = true, lang = "it"},
 ]
