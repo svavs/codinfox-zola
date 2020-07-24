@@ -4,27 +4,44 @@ title = "Cos'è questo sito"
 +++
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Ciao! Questo è un esempio di pagina. Sentiti libero di personalizzarla come più ti piace dopo averla scaricata. Iniziamo!
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Questo è un tema per [Zola](https://www.getzola.com) ispirato a [Codinfox-Lanyon](https://codinfox.github.com/), un tema basato su Lanyon e realizzato per [Jekyll](http://jekyllrb.com).
+È possibile vedere una dimostrazione [qui](http://svavs.github.io).
 
-There are currently two themes built on Poole:
+Questo è un tema che pone attenzione al contenuto prima di tutto, riponendo la navigazione in un tiretto laterale nascosto.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+* Sviluppato per [Zola](https://www.getzola.com)
+* Distribuito su Github e ospitato gratuitamente su [Github Pages](https://pages.github.com)
+* Codice scritto con [Spacemacs](https://www.spacemacs.org)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Questo tema supporta:
 
-## Setup
+1. Diverse colorazioni: è possibile scegliere il colore preferito per il tema (cambiandolo nel `_config.scss`)
+2. La possibilità di cambiare posizione alla barra laterale (è possibile invertirla modificando la variabile booleana presente in `_config.scss`)
+3. L'integrazione di FontAwesome, MathJax, Disqus e Google Analytics
+4. Supporto per i siti multilingue
+5. Numerosi miglioramenti rispetto all'originale Lanyon e Codinfox-Lanyon
 
-Some fun facts about the setup of this project include:
+Tutte le variabili di configurazione e il loro significato sono all'interno dei rispettivi file di configurazione:
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+- `config.toml` (per le variabili di configurazione di Zola ed alcune valiabili extra richieste da questo tema),
+- `author.toml` (per le informazioni personali da visualizzare riguardo l'autore del sito),
+- `nav.toml` (per la definizione delle voci del menu di navigazione disponibile nella barra laterale del sito)
+- `_config.scss` (per la definizione di alcune personalizzazioni nello stile css).
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+Le opzioni sono semplici e descritte nei commenti.
 
-Thanks for reading!
+Visita il repository [Github](https://github.com/svavs/codinfox-zola) per maggiori informazioni e per contribuire.
+
+Hai suggerimenti o domande? Allora [apri una issue su Github](https://github.com/svavs/codinfox-zola/issues/new) o [chiedimi su Twitter](https://twitter.com/svavs).
+
+
+## Licenza
+
+Rilasciato sotto licenza open source [MIT license](LICENSE.md).
+
+
+# TODO
+ - recaptcha per nascondere l'indirizzo email (https://developers.google.com/recaptcha/intro)
