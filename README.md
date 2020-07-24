@@ -13,7 +13,8 @@ This theme supports:
 2. Changable sidebar locations (reverse it by changing the boolean value in `_config.scss`)
 3. Integration of FontAwesome, MathJax, Disqus and Google Analytics
 4. Support for multilingual sites
-4. and numerous improvements over original Lanyon
+5. Numerous improvements over original Lanyon
+6. Improvements over original Codinfox-Lanyon
 
 All the configuration variables and their meaning are inside:
 
@@ -35,5 +36,4 @@ Open sourced under the [MIT license](LICENSE.md).
 <3
 
 # TODO
- - related or latest posts in post.html
  - recaptcha for hiding email address link (https://developers.google.com/recaptcha/intro)
