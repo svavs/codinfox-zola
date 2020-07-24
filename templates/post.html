@@ -15,8 +15,8 @@
         </div>
 
         <div class="related">
-          <h2>Related Posts</h2>
-          <ul class="related-posts">
+          {# <h2>Related Posts</h2> #}
+          {# <ul class="related-posts"> #}
             {# {% set limit = 3 %} #}
             {# {% set count = 0 %} #}
             {# {% for post in related.posts %} #}
@@ -31,6 +31,23 @@
             {# {% if count == limit %}{% break %}{% endif %} #}
             {# {% set count = count + 1 %} #}
             {# {% endfor %} #}
+          {# </ul> #}
+
+          <h2>Other Posts</h2>
+          <ul class="related-posts">
+            {% if page.earlier %}
+            <li>
+                <small>Previous</small>
+                <a href="{{ page.earlier.permalink }}">{{ page.earlier.title }}</a>
+            </li>
+            {% endif %}
+
+            {% if page.later %}
+            <li>
+                <small>Next</small>
+                <a href="{{ page.later.permalink }}">{{ page.later.title }}</a>
+            </li>
+            {% endif %}
           </ul>
         </div>
 
