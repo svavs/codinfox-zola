@@ -35,7 +35,9 @@
 
         <div class="post-more">
             {% if config.extra.read_time %}
-            <span class="post-min">{{ post.reading_time }} minute read</span>
+            <span class="post-min">
+              <span class="opaque-clock">&#x1F553;</span> {{ post.reading_time }} minute read
+            </span>
             {% endif %}
             {% if config.extra.disqus_short_name %}
                 <a href="{{ post.permalink }}#disqus_thread"> <i class="fa fa-comments" aria-hidden="true"></i>Comment</a>&nbsp;
