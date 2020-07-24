@@ -213,14 +213,6 @@ a.sidebar-nav-item:focus {
 }
 
 /* Changing author description keywords on place effect */
-/*
-@keyframes changing-keywords {
-  from {background-color: red;}
-  to {background-color: yellow;}
-}
-  animation-name: changing-keywords;
-  animation-duration: 1s;
-*/
 .codinfox-changing-keywords {
   width:7em;
   position:relative;
@@ -246,4 +238,3 @@ a.sidebar-nav-item:focus {
   animation:slide-in 0.6s;
   -webkit-animation:slide-in 0.6s
 }
-
