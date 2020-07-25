@@ -45,3 +45,4 @@ Rilasciato sotto licenza open source [MIT license](LICENSE.md).
 
 # TODO
  - recaptcha per nascondere l'indirizzo email (https://developers.google.com/recaptcha/intro)
+ - collegamenti multilingue della topbar nascosti per le pagine principali di sezioni

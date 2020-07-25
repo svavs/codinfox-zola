@@ -45,3 +45,4 @@ Open sourced under the [MIT license](LICENSE.md).
 
 ## TODO
  - recaptcha for hiding email address link (https://developers.google.com/recaptcha/intro)
+ - hidden multilingual links in topbar for main index section pages
