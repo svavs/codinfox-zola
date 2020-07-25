@@ -44,7 +44,7 @@
       {{ sidebar::copyright(author_name = author.name) }}
 
       {{ sidebar::powered_by() }}
-      
+
       {{ scripts::changing_words() }}
     </div>
     {# ### #}
@@ -61,7 +61,7 @@
 
         {% block content %}
 	      <div class="hero">
-          <img src="{{ get_url(path='/img/curiosity_by_starsinmyfingertips_dakioyj-fullview.jpg') }}" />
+          <img src="{{ get_url(path=config.extra.image) }}" />
 	        <p>{{ config.extra.caption | safe }}</p>
 	      </div>
         {% endblock content %}
