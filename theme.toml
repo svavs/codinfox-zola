@@ -3,11 +3,11 @@ description = "Codinfox theme for Zola"
 license = "MIT"
 homepage = "https://github.com/svavs/codinfox-zola"
 min_version = "0.11.0"
-demo = "https://svavs.netlify.com"
+demo = "https://svavs.github.io/"
 
 [author]
 name = "Silvano Sallese"
-homepage = "http://svavs.github.com"
+homepage = "https://svavs.github.io/"
 
 [original]
 author =  "Li Zhihao"

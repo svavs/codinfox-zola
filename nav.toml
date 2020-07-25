@@ -1,13 +1,6 @@
-
-# Navigation (2nd level links supported)
-# nav = [
-#   { name = "Home", path = "/", haschild = false, ischild = false },
-#   { name = "Blog", path = "/blog/", haschild = true, ischild = false  },
-#   { name = "Categories", path = "/blog/categories/", haschild = false, ischild = true },
-#   { name = "Tags", path = "/blog/tags/", haschild = false, ischild = true },
-#   { name = "About", path = "/about/", haschild = false, ischild = false },
-#   { name = "Github Project", path = "http://svavs.github.io/", haschild = false, ischild = false }
-# ]
+###
+# Structure of the navigation menu in the sidebar
+#
 
 [[nav]]
 name = "Home"
@@ -16,8 +9,9 @@ path = "/"
 [[nav]]
 name = "Blog"
 path = "/blog/"
-haschild = true
+haschild = true  # Blog is a section with submenu navigation items
 
+  # sub-items of the Blog section
   [[nav.sub]]
   name = "Categories"
   path = "/categories/"

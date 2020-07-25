@@ -15,7 +15,7 @@ default_language = "en"
 highlight_code = true
 
 # The theme to use for code highlighting.
-# See below for list of allowed values.
+# See the Zola documentation for list of allowed values.
 #highlight_theme = "base16-ocean-dark"
 
 # When set to "true", a feed is automatically generated.
@@ -104,7 +104,7 @@ build_search_index = true
 #    "https://caniuse.com/",
 #]
 
-# Various slugification strategies, see below for details
+# Various slugification strategies, see Zola documentation for details
 # Defauls to everything being a slug
 # [slugify]
 # paths = "on"
@@ -115,16 +115,16 @@ build_search_index = true
 #[translations]
 
 ###
-# Put all your custom variables here
+# All the custom theme variables here below
 [extra]
 logo = "/mylogo_2.png"
 
-version = "0.9.1"
+version = "1.0.1"
 copyrightyear = "2020"
 
 # Puglins
 mathjax = true # whether support mathjax
-google_analytics_token = "" # UA-00000000-1 leave blank if you don't want google analytics
+google_analytics_token = "" # a UA-00000000-1 like code or leave blank if you don't want google analytics
 disqus_short_name = "your_short_name" # leave blank if you don't want disqus
 
 # Where are tags and categories displayed
@@ -132,9 +132,8 @@ tag_page = "/tags/"
 category_page = "/categories/"
 
 # hero
-#image = "/img/curiosity_by_elementalspirits_dci8yl7.png"
-#caption = "Original Artwork &copy; <a href=\"https://www.deviantart.com/elementalspirits/art/Curiosity-756245275\">ElementalSpirits</a>"
-caption = "Original Artwork &copy; <a href=\"https://www.deviantart.com/starsinmyfingertips/art/Curiosity-639126235\">2016 - 2020 StarsInMyFingertips</a>"
+image = "/img/curiosity_by_starsinmyfingertips_dakioyj-fullview.jpg"  # image for the home page
+caption = "Original Artwork &copy; <a href=\"https://www.deviantart.com/starsinmyfingertips/art/Curiosity-639126235\">2016 - 2020 StarsInMyFingertips</a>"  # caption for the home page image
 #
 
 # show or not the reading time based on https://help.medium.com/hc/en-us/articles/214991667-Read-time
