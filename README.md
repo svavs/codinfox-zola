@@ -7,7 +7,7 @@ This is a [Zola](https://www.getzola.com) theme inspired to [Codinfox-Lanyon](ht
 This theme places content first by tucking away navigation in a hidden drawer.
 
 * Built for [Zola](https://www.getzola.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com) and [Vercel](https://vercel.com)
 * Coded with [Spacemacs](https://www.spacemacs.org)
 
 This theme supports:

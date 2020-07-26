@@ -13,7 +13,7 @@ Questo è un tema per [Zola](https://www.getzola.com) ispirato a [Codinfox-Lanyo
 Questo è un tema che pone attenzione al contenuto prima di tutto, riponendo la navigazione in un tiretto laterale nascosto.
 
 * Sviluppato per [Zola](https://www.getzola.com)
-* Distribuito su Github e ospitato gratuitamente su [Github Pages](https://pages.github.com)
+* Distribuito su Github e ospitato gratuitamente su [Github Pages](https://pages.github.com) e [Vercel](https://vercel.com)
 * Codice scritto con [Spacemacs](https://www.spacemacs.org)
 
 Questo tema supporta:
