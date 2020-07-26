@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="it">
 	<title>The most beautiful Zola theme</title>
 	<subtitle>Lead by Curiosity</subtitle>
-	<link href="https://svavs.github.io/codinfox-zola/it/atom.xml" rel="self" type="application/atom+xml"/>
-	<link href="https://svavs.github.io/codinfox-zola"/>
+	<link href="http://svavs.github.io/codinfox-zola/it/atom.xml" rel="self" type="application/atom+xml"/>
+	<link href="http://svavs.github.io/codinfox-zola"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2014-01-02T00:00:00+00:00</updated>
-	<id>https://svavs.github.io/codinfox-zola/it/atom.xml</id>
+	<id>http://svavs.github.io/codinfox-zola/it/atom.xml</id>
 	<entry xml:lang="it">
 		<title>Introducing Lanyon</title>
 		<published>2014-01-02T00:00:00+00:00</published>
 		<updated>2014-01-02T00:00:00+00:00</updated>
-		<link href="https://svavs.github.io/codinfox-zola/it/blog/introducing-lanyon/" type="text/html"/>
-		<id>https://svavs.github.io/codinfox-zola/it/blog/introducing-lanyon/</id>
+		<link href="http://svavs.github.io/codinfox-zola/it/blog/introducing-lanyon/" type="text/html"/>
+		<id>http://svavs.github.io/codinfox-zola/it/blog/introducing-lanyon/</id>
 		<content type="html">&lt;p class=&quot;message&quot;&gt;
   Hey there! This is an example of translated blog post. Feel free to customize it for your own use upon downloading. Carry on!
 &lt;&#x2F;p&gt;
@@ -48,8 +48,8 @@
 		<title>Example content</title>
 		<published>2014-01-01T00:00:00+00:00</published>
 		<updated>2014-01-01T00:00:00+00:00</updated>
-		<link href="https://svavs.github.io/codinfox-zola/it/blog/example-content/" type="text/html"/>
-		<id>https://svavs.github.io/codinfox-zola/it/blog/example-content/</id>
+		<link href="http://svavs.github.io/codinfox-zola/it/blog/example-content/" type="text/html"/>
+		<id>http://svavs.github.io/codinfox-zola/it/blog/example-content/</id>
 		<content type="html">&lt;div class=&quot;message&quot;&gt;
   Ciao! Questo è un esempio di blog post che mostra alcune tipoligie di contenuto HTML supportate da questo tema.
 &lt;&#x2F;div&gt;

@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title>The most beautiful Zola theme</title>
 	<subtitle>Lead by Curiosity</subtitle>
-	<link href="https://svavs.github.io/codinfox-zola/atom.xml" rel="self" type="application/atom+xml"/>
-	<link href="https://svavs.github.io/codinfox-zola"/>
+	<link href="http://svavs.github.io/codinfox-zola/atom.xml" rel="self" type="application/atom+xml"/>
+	<link href="http://svavs.github.io/codinfox-zola"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2014-01-02T00:00:00+00:00</updated>
-	<id>https://svavs.github.io/codinfox-zola/atom.xml</id>
+	<id>http://svavs.github.io/codinfox-zola/atom.xml</id>
 	<entry xml:lang="en">
 		<title>Introducing Lanyon</title>
 		<published>2014-01-02T00:00:00+00:00</published>
 		<updated>2014-01-02T00:00:00+00:00</updated>
-		<link href="https://svavs.github.io/codinfox-zola/blog/introducing-lanyon/" type="text/html"/>
-		<id>https://svavs.github.io/codinfox-zola/blog/introducing-lanyon/</id>
+		<link href="http://svavs.github.io/codinfox-zola/blog/introducing-lanyon/" type="text/html"/>
+		<id>http://svavs.github.io/codinfox-zola/blog/introducing-lanyon/</id>
 		<content type="html">&lt;p&gt;Lanyon is an unassuming &lt;a href=&quot;http:&#x2F;&#x2F;jekyllrb.com&quot;&gt;Jekyll&lt;&#x2F;a&gt; theme that places content first by tucking away navigation in a hidden drawer. It&#x27;s based on &lt;a href=&quot;http:&#x2F;&#x2F;getpoole.com&quot;&gt;Poole&lt;&#x2F;a&gt;, the Jekyll butler.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;&#x2F;h3&gt;
@@ -45,8 +45,8 @@
 		<title>Example content</title>
 		<published>2014-01-01T00:00:00+00:00</published>
 		<updated>2014-01-01T00:00:00+00:00</updated>
-		<link href="https://svavs.github.io/codinfox-zola/blog/example-content/" type="text/html"/>
-		<id>https://svavs.github.io/codinfox-zola/blog/example-content/</id>
+		<link href="http://svavs.github.io/codinfox-zola/blog/example-content/" type="text/html"/>
+		<id>http://svavs.github.io/codinfox-zola/blog/example-content/</id>
 		<content type="html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;&#x2F;div&gt;
@@ -152,8 +152,8 @@
 		<title>What&#x27;s Jekyll?</title>
 		<published>2013-12-31T00:00:00+00:00</published>
 		<updated>2013-12-31T00:00:00+00:00</updated>
-		<link href="https://svavs.github.io/codinfox-zola/blog/whats-jekyll/" type="text/html"/>
-		<id>https://svavs.github.io/codinfox-zola/blog/whats-jekyll/</id>
+		<link href="http://svavs.github.io/codinfox-zola/blog/whats-jekyll/" type="text/html"/>
+		<id>http://svavs.github.io/codinfox-zola/blog/whats-jekyll/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;jekyllrb.com&quot;&gt;Jekyll&lt;&#x2F;a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;From &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mojombo&#x2F;jekyll&#x2F;blob&#x2F;master&#x2F;README.markdown&quot;&gt;the project&#x27;s readme&lt;&#x2F;a&gt;:&lt;&#x2F;p&gt;
