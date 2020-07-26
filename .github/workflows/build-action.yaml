@@ -12,6 +12,6 @@ jobs:
       env:
         PAGES_BRANCH: gh-pages
         BUILD_DIR: /
-        BUILD_FLAGS: --drafts --output-dir "docs"
+        BUILD_FLAGS: --drafts
         TOKEN: ${{ secrets.BUILD }}
 
