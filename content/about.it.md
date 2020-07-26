@@ -8,7 +8,7 @@ title = "Cos'è questo sito"
 </p>
 
 Questo è un tema per [Zola](https://www.getzola.com) ispirato a [Codinfox-Lanyon](https://codinfox.github.com/), un tema basato su Lanyon e realizzato per [Jekyll](http://jekyllrb.com).
-È possibile vedere una dimostrazione [qui](http://svavs.github.io).
+È possibile vedere una dimostrazione [qui](https://codinfox-zola.vercel.app/).
 
 Questo è un tema che pone attenzione al contenuto prima di tutto, riponendo la navigazione in un tiretto laterale nascosto.
 
@@ -49,7 +49,7 @@ Per definire una immagine personalizzata per la home page, basta salvare un file
 
 Adesso è possibile creare le pagine del sito salvando i file in formato Markdown nella cartella `content` del sito stesso come si fa per qualsiasi sito realizzato con Zola.
 
-Se si vuole gestire un Blog con questo tema, è sufficiente creare una sotto-cartella di `content` contenente tutti i post del blog scritti in formato Markdown. Zola genera automaticamente una sezione per questa nuova cartella. È possibile vedere un esempio nella [live demo]((http://svavs.github.io)).
+Se si vuole gestire un Blog con questo tema, è sufficiente creare una sotto-cartella di `content` contenente tutti i post del blog scritti in formato Markdown. Zola genera automaticamente una sezione per questa nuova cartella. È possibile vedere un esempio nella [live demo](https://codinfox-zola.vercel.app/).
 
 ## Licenza
 
