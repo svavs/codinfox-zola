@@ -116,6 +116,7 @@ build_search_index = true
 
 ###
 # All the custom theme variables here below
+#   All these variables should be set in your config.toml
 [extra]
 logo = "/mylogo_2.png"
 

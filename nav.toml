@@ -1,6 +1,12 @@
 ###
 # Structure of the navigation menu in the sidebar
 #
+#  [[nav]] is required and defines the main voice menu
+#  [[nav.sub]] is optional and defines the second level voices
+#
+#  - `name` is the link's name displayed in the navigation menu
+#  - `path` is the site's relative link or the full external link associated to `name`
+#
 
 [[nav]]
 name = "Home"
