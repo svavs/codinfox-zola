@@ -1,5 +1,4 @@
 name: Zola Deploy to Pages on push
-uses: shalzz/zola-deploy-action@v0.11.0
 on: push
 
 jobs:
