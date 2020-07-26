@@ -1,8 +1,12 @@
 {% extends "index.html" %}
 
 {% block pagetitle %}
-{{ head::titlesite(page_title = "Not fount") }}
+{{ head::titlesite(page_title = "Not found") }}
 {% endblock pagetitle %}
+
+{% block masthead %}
+{{ macros::masthead(current_url=config.base_url, multilan=false) }}
+{% endblock masthead %}
 
 {% block content %}
 	      <div class="page">
