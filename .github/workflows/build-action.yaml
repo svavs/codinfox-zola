@@ -1,16 +1,17 @@
-- name: Zola Deploy to Pages on push
-  uses: shalzz/zola-deploy-action@v0.11.0
-  on: push
-  jobs:
-    build:
-      name: shalzz/zola-deploy-action
-      runs-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@master
-      - name: shalzz/zola-deploy-action
-        uses: shalzz/zola-deploy-action@master
-        env:
-          PAGES_BRANCH: gh-pages
-          BUILD_DIR: docs
-          BUILD_FLAGS: --drafts
-          TOKEN: ${{ secrets.5fc4bebfd24515f31837da071b98ebeb47b7c2d2 }}
+name: Zola Deploy to Pages on push
+uses: shalzz/zola-deploy-action@v0.11.0
+on: push
+
+jobs:
+  build:
+    name: shalzz/zola-deploy-action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: shalzz/zola-deploy-action
+      uses: shalzz/zola-deploy-action@master
+      env:
+        PAGES_BRANCH: gh-pages
+        BUILD_DIR: docs
+        BUILD_FLAGS: --drafts
+        TOKEN: ${{ secrets.5fc4bebfd24515f31837da071b98ebeb47b7c2d2 }}
