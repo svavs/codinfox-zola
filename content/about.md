@@ -37,6 +37,17 @@ Learn more and contribute on [GitHub](https://github.com/svavs/codinfox-zola).
 
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/svavs/codinfox-zola/issues/new) or [ask me on Twitter](https://twitter.com/svavs).
 
+### Install and use
+
+To use this theme you can follow the instruction required by any Zola theme.
+
+Simply clone this repository under the `themes` folder of your site's main folder.
+
+Then, define the required extra variables in the config.toml (take it from the config.toml file of the theme), create and define the author.toml and nav.toml configuration files in the main folder of your site (the same level of the config.toml), and that's it!
+
+To define your own home picture, put an image file in the `static/img/` folder and set the path in the config.extra.image variable.
+
+Now is possible to create the content inside the `content` folder as usual for Zola sites.
 
 ## License
 

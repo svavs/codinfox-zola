@@ -37,6 +37,17 @@ Visita il repository [Github](https://github.com/svavs/codinfox-zola) per maggio
 
 Hai suggerimenti o domande? Allora [apri una issue su Github](https://github.com/svavs/codinfox-zola/issues/new) o [chiedimi su Twitter](https://twitter.com/svavs).
 
+### Installazione e utilizzo
+
+Per usare questo tema è sufficiente seguire le istruzioni richieste per l'installazione di un qualsiasi tema realizzato per Zola.
+
+Semplicemente clonare questo repository nella cartella `themes` del sito.
+
+Fatto ciò, definire le extra variabili nel `config.toml` (è possibile trovarle nel `config.toml` del tema stesso), creare e definire i file di configurazione `author.toml` e `nav.toml` nella cartella principale del sito (lo stesso livello del `config.toml`), ed ecco fatto!
+
+Per definire una immagine personalizzata per la home page, basta salvare un file immagine nella sottocartella `static/img/` ed impostare il percorso nella variabile config.extra.image.
+
+Adesso è possibile creare le pagine del sito salvando i file in formato Markdown nella cartella `content` del sito stesso come si fa per qualsiasi sito realizzato con Zola.
 
 ## Licenza
 
