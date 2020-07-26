@@ -14,3 +14,4 @@ jobs:
         BUILD_DIR: docs
         BUILD_FLAGS: --drafts
         TOKEN: ${{ secrets.TOKEN }}
+
