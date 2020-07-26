@@ -1,7 +1,8 @@
 name: Zola Deploy to Pages on push
 on: 
   push:
-    - master
+    branches:
+      - master
 
 jobs:
   build:
