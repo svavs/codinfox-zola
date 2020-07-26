@@ -1,17 +1,21 @@
 name: Zola Deploy to Pages on push
-on: push
+on: 
+  push:
+    - master
 
 jobs:
   build:
     name: shalzz/zola-deploy-action
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
     steps:
-    - uses: actions/checkout@master
-    - name: shalzz/zola-deploy-action
-      uses: shalzz/zola-deploy-action@master
-      env:
-        PAGES_BRANCH: gh-pages
-        BUILD_DIR: .
-        BUILD_FLAGS: --base-url https://svavs.github.io/codinfox-zola/
-        TOKEN: ${{ secrets.BUILD }}
+      - name: 'Checkout'
+        uses: actions/checkout@master
+      - name: 'Build and deploy'
+        uses: shalzz/zola-deploy-action@master
+        env:
+          PAGES_BRANCH: gh-pages
+          BUILD_DIR: .
+          BUILD_FLAGS: --base-url
+          TOKEN: ${{ secrets.BUILD }}
 
