@@ -49,6 +49,8 @@ Per definire una immagine personalizzata per la home page, basta salvare un file
 
 Adesso è possibile creare le pagine del sito salvando i file in formato Markdown nella cartella `content` del sito stesso come si fa per qualsiasi sito realizzato con Zola.
 
+Se si vuole gestire un Blog con questo tema, è sufficiente creare una sotto-cartella di `content` contenente tutti i post del blog scritti in formato Markdown. Zola genera automaticamente una sezione per questa nuova cartella. È possibile vedere un esempio nella [live demo]((http://svavs.github.io)).
+
 ## Licenza
 
 Rilasciato sotto licenza open source [MIT license](LICENSE.md).

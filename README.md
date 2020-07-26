@@ -41,6 +41,8 @@ To define your own home picture, put an image file in the `static/img/` folder a
 
 Now is possible to create the content inside the `content` folder as usual for Zola sites.
 
+If you want to have a Blog with this theme, then create a folder inside the `content` folder containing all the blog posts in Markdown format. Zola automatically generate a section that you can manage as a blog. See an example in the [live demo]((http://svavs.github.io)).
+ 
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
