@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "http://127.0.0.1:1111"
+base_url = "http://svavs.github.io/codinfox-zola"
 
 title = "The most beautiful Zola theme"
 description = "Lead by Curiosity"
@@ -126,7 +126,7 @@ copyrightyear = "2020"
 # Puglins
 mathjax = true # whether support mathjax
 google_analytics_token = "" # a UA-00000000-1 like code or leave blank if you don't want google analytics
-disqus_short_name = "your_short_name" # leave blank if you don't want disqus
+disqus_short_name = "codinfox-zola" # leave blank if you don't want disqus
 
 # Where are tags and categories displayed
 tag_page = "/tags/"

@@ -1,6 +1,6 @@
 {% import "macros/scripts.html" as scripts %}
 
-{% macro masthead(current_url) %}
+{% macro masthead(current_url, multilan=true) %}
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
@@ -8,7 +8,7 @@
               <img class="masthead-logo" src="{{ config.base_url }}{{ config.extra.logo }}"/>
             </a>
             <small>{{ config.description }}</small>
-            {% if config.languages %}
+            {% if config.languages and multilan %}
               {% if not taxonomy %}
                 <small class="multilingual">
                   {% set deflang = true %}
@@ -33,3 +33,4 @@
         </div>
       </div>
 {% endmacro masthead %}
+

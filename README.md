@@ -1,11 +1,13 @@
 # Codinfox-Zola
 
-This is a [Zola](https://www.getzola.com) theme inspired to [Codinfox-Lanyon](https://codinfox.github.com/), a Lanyon based theme for [Jekyll](http://jekyllrb.com). See a live demo [here](http://svavs.github.io).
+![Zola Deploy to Github Pages on push](https://github.com/svavs/codinfox-zola/workflows/Zola%20Deploy%20to%20Pages%20on%20push/badge.svg?branch=master)
+
+This is a [Zola](https://www.getzola.com) theme inspired to [Codinfox-Lanyon](https://codinfox.github.com/), a Lanyon based theme for [Jekyll](http://jekyllrb.com). See a live demo [here](https://codinfox-zola.vercel.app/).
 
 This theme places content first by tucking away navigation in a hidden drawer.
 
 * Built for [Zola](https://www.getzola.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com) and [Vercel](https://vercel.com)
 * Coded with [Spacemacs](https://www.spacemacs.org)
 
 This theme supports:
@@ -41,7 +43,7 @@ To define your own home picture, put an image file in the `static/img/` folder a
 
 Now is possible to create the content inside the `content` folder as usual for Zola sites.
 
-If you want to have a Blog with this theme, then create a folder inside the `content` folder containing all the blog posts in Markdown format. Zola automatically generate a section that you can manage as a blog. See an example in the [live demo]((http://svavs.github.io)).
+If you want to have a Blog with this theme, then create a folder inside the `content` folder containing all the blog posts in Markdown format. Zola automatically generate a section that you can manage as a blog. See an example in the [live demo](https://codinfox-zola.vercel.app/blog/).
  
 ## License
 
