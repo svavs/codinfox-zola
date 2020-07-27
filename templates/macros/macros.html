@@ -33,15 +33,3 @@
         </div>
       </div>
 {% endmacro masthead %}
-
-
-{% macro blog_comments() %}
-{% if config.extra.disqus_short_name %}
-<div class="comments">
-  <h2>Comments</h2>
-  <div id="disqus_thread"></div>
-  {{ scripts::disqus_thread() }}
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-</div>
-{% endif %}
-{% endmacro blog_comments %}
