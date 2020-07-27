@@ -17,7 +17,7 @@
     {{ head::titlesite(page_title = "Home") }}
     {% endblock pagetitle %}
 
-    {{ head::css() }}
+    {{ head::css(cp=current_path) }}
 
     {{ head::icons() }}
 
