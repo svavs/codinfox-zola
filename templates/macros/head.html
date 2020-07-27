@@ -10,9 +10,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 {% endmacro meta %}
 
-{% macro css(cp=config.base_url) %}
+{% macro css() %}
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ cp }}/main.css">
+  <link rel="stylesheet" href="{{ config.base_url }}/main.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
 {% endmacro css %}
