@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "http://svavs.github.io/codinfox-zola"
+base_url = "http://svavs.github.io/"
 
 title = "The most beautiful Zola theme"
 description = "Lead by Curiosity"
