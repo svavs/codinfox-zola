@@ -20,7 +20,7 @@ Questo tema supporta:
 
 1. Diverse colorazioni: è possibile scegliere il colore preferito per il tema (cambiandolo nel `_config.scss`)
 2. La possibilità di cambiare posizione alla barra laterale (è possibile invertirla modificando la variabile booleana presente in `_config.scss`)
-3. L'integrazione di FontAwesome, MathJax, Disqus e Google Analytics
+3. L'integrazione di FontAwesome, MathJax, Disqus e Google Analytics (con gtag)
 4. Supporto per i siti multilingue
 5. Numerosi miglioramenti rispetto all'originale Lanyon e Codinfox-Lanyon
 
@@ -59,3 +59,4 @@ Rilasciato sotto licenza open source [MIT license](LICENSE.md).
 # TODO
  - recaptcha per nascondere l'indirizzo email (https://developers.google.com/recaptcha/intro)
  - collegamenti multilingue della topbar nascosti per le pagine principali di sezioni
+ - form per la ricerca nel sito ed il template della pagina di risultati che usa l'indice di ricerca generato da Zola 
