@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://svavs.github.io/codinfox-zola/sitemap.xml

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="it">
+	<title>The most beautiful Zola theme - writing post</title>
+	<subtitle>Lead by Curiosity</subtitle>
+	<link href="http://svavs.github.io/codinfox-zola/categorie/writing-post/atom.xml" rel="self" type="application/atom+xml"/>
+	<link href="http://svavs.github.io/codinfox-zola"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2014-01-01T00:00:00+00:00</updated>
+	<id>http://svavs.github.io/codinfox-zola/categorie/writing-post/atom.xml</id>
+	<entry xml:lang="it">
+		<title>Example content</title>
+		<published>2014-01-01T00:00:00+00:00</published>
+		<updated>2014-01-01T00:00:00+00:00</updated>
+		<link href="http://svavs.github.io/codinfox-zola/it/blog/example-content/" type="text/html"/>
+		<id>http://svavs.github.io/codinfox-zola/it/blog/example-content/</id>
+		<content type="html">&lt;div class=&quot;message&quot;&gt;
+  Ciao! Questo è un esempio di blog post che mostra alcune tipoligie di contenuto HTML supportate da questo tema.
+&lt;&#x2F;div&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;&#x2F;a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;&#x2F;em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;&#x2F;strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;h2 id=&quot;elementi-html-incorporati&quot;&gt;Elementi HTML incorporati&lt;&#x2F;h2&gt;
+&lt;p&gt;HTML definisce una lunga lista di tag incorporati a disposizione, una lista completa dei quali è possibile trovare nel &lt;a href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;HTML&#x2F;Element&quot;&gt;Mozilla Developer Network&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Per il testo in grassetto&lt;&#x2F;strong&gt;, usare  &lt;code&gt;&amp;lt;strong&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Per il testo in corsivo&lt;&#x2F;em&gt;, use &lt;code&gt;&amp;lt;em&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Abbreviazioni, come &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;&#x2F;abbr&gt; dovrebbero essere &lt;code&gt;&amp;lt;abbr&amp;gt;&lt;&#x2F;code&gt;, con un attributo &lt;code&gt;title&lt;&#x2F;code&gt; opzionale per la frase completa.&lt;&#x2F;li&gt;
+&lt;li&gt;Citazioni, come &lt;cite&gt;— Mark otto&lt;&#x2F;cite&gt;, dovrebbero far uso di &lt;code&gt;&amp;lt;cite&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Il testo &lt;del&gt;barrato&lt;&#x2F;del&gt; dovrebbe usare &lt;code&gt;&amp;lt;del&amp;gt;&lt;&#x2F;code&gt; e il testo &lt;ins&gt;sottolineato&lt;&#x2F;ins&gt; dovrebbe essere inserito con &lt;code&gt;&amp;lt;ins&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Il &lt;sup&gt;testo&lt;&#x2F;sup&gt; in apice utilizza &lt;code&gt;&amp;lt;sup&amp;gt;&lt;&#x2F;code&gt;, mentre quello in &lt;sub&gt;pedice&lt;&#x2F;sub&gt; utilizza &lt;code&gt;&amp;lt;sub&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;La maggior parte di questi elementi hanno uno stile impostato dai browser con alcune modifiche di questo tema.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;intestazione&quot;&gt;Intestazione&lt;&#x2F;h2&gt;
+&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;codice&quot;&gt;Codice&lt;&#x2F;h3&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;codice sorgente&lt;&#x2F;code&gt; montes, nascetur ridiculus mus.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Esempio che può essere avviato direttamente nella console JavaScript&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Crea una funzione che prende due argomenti e ritorna la loro somma&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;var &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;adder &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;= new &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ebcb8b;&quot;&gt;Function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;a&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;b&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;return a + b&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;);&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Chiamata alla funzione&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;adder&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;6&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;);&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; &amp;gt; 8&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;elenchi&quot;&gt;Elenchi&lt;&#x2F;h3&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;&#x2F;li&gt;
+&lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;&#x2F;li&gt;
+&lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;&#x2F;li&gt;
+&lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;&#x2F;li&gt;
+&lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;&#x2F;p&gt;
+&lt;dl&gt;
+  &lt;dt&gt;HyperText Markup Language (HTML)&lt;&#x2F;dt&gt;
+  &lt;dd&gt;Il linguaggio usato per descrivere e definire il contenuto di una pagina Web&lt;&#x2F;dd&gt;
+&lt;dt&gt;Cascading Style Sheets (CSS)&lt;&#x2F;dt&gt;
+  &lt;dd&gt;Utilizzato per definire l&#x27;aspetto del contenuto Web&lt;&#x2F;dd&gt;
+&lt;dt&gt;JavaScript (JS)&lt;&#x2F;dt&gt;
+  &lt;dd&gt;Il linguaggio di programmazione usato per realizzare siti Web avanzati e applicazioni&lt;&#x2F;dd&gt;
+&lt;&#x2F;dl&gt;
+&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;tabelle&quot;&gt;Tabelle&lt;&#x2F;h3&gt;
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;&#x2F;p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Nome&lt;&#x2F;th&gt;
+      &lt;th&gt;Voti positivi&lt;&#x2F;th&gt;
+      &lt;th&gt;Voti negativi&lt;&#x2F;th&gt;
+    &lt;&#x2F;tr&gt;
+  &lt;&#x2F;thead&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Totale&lt;&#x2F;td&gt;
+      &lt;td&gt;21&lt;&#x2F;td&gt;
+      &lt;td&gt;23&lt;&#x2F;td&gt;
+    &lt;&#x2F;tr&gt;
+  &lt;&#x2F;tfoot&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alice&lt;&#x2F;td&gt;
+      &lt;td&gt;10&lt;&#x2F;td&gt;
+      &lt;td&gt;11&lt;&#x2F;td&gt;
+    &lt;&#x2F;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bob&lt;&#x2F;td&gt;
+      &lt;td&gt;4&lt;&#x2F;td&gt;
+      &lt;td&gt;3&lt;&#x2F;td&gt;
+    &lt;&#x2F;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Charlie&lt;&#x2F;td&gt;
+      &lt;td&gt;7&lt;&#x2F;td&gt;
+      &lt;td&gt;9&lt;&#x2F;td&gt;
+    &lt;&#x2F;tr&gt;
+  &lt;&#x2F;tbody&gt;
+&lt;&#x2F;table&gt;
+&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;matematica&quot;&gt;Matematica&lt;&#x2F;h3&gt;
+&lt;p&gt;Test per le equazioni matematiche:&lt;&#x2F;p&gt;
+&lt;p&gt;$$ J_\alpha(x) = \sum\limits_{m=0}^\infty \frac{(-1)^m}{m! , \Gamma(m + \alpha + 1)}{\bigl({\frac{x}{2}}\bigr)}^{2 m + \alpha} $$&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Servono altri esempi in questa pagina? &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;poole&#x2F;poole&#x2F;issues&#x2F;new&quot;&gt;Apri una issue.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

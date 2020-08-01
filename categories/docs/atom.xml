@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>The most beautiful Zola theme - docs</title>
+	<subtitle>Lead by Curiosity</subtitle>
+	<link href="http://svavs.github.io/codinfox-zola/categories/docs/atom.xml" rel="self" type="application/atom+xml"/>
+	<link href="http://svavs.github.io/codinfox-zola"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2014-01-02T00:00:00+00:00</updated>
+	<id>http://svavs.github.io/codinfox-zola/categories/docs/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Introducing Lanyon</title>
+		<published>2014-01-02T00:00:00+00:00</published>
+		<updated>2014-01-02T00:00:00+00:00</updated>
+		<link href="http://svavs.github.io/codinfox-zola/blog/introducing-lanyon/" type="text/html"/>
+		<id>http://svavs.github.io/codinfox-zola/blog/introducing-lanyon/</id>
+		<content type="html">&lt;p&gt;Lanyon is an unassuming &lt;a href=&quot;http:&#x2F;&#x2F;jekyllrb.com&quot;&gt;Jekyll&lt;&#x2F;a&gt; theme that places content first by tucking away navigation in a hidden drawer. It&#x27;s based on &lt;a href=&quot;http:&#x2F;&#x2F;getpoole.com&quot;&gt;Poole&lt;&#x2F;a&gt;, the Jekyll butler.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;&#x2F;h3&gt;
+&lt;p&gt;Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;mdo&quot;&gt;@mdo&lt;&#x2F;a&gt;. Poole, and every theme built on it (like Lanyon here) includes the following:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;&#x2F;404&quot;&gt;404&lt;&#x2F;a&gt;, &lt;a href=&quot;&#x2F;atom.xml&quot;&gt;RSS feed&lt;&#x2F;a&gt;, posts, and &lt;a href=&quot;&#x2F;about&quot;&gt;example page&lt;&#x2F;a&gt;)&lt;&#x2F;li&gt;
+&lt;li&gt;Mobile friendly design and development&lt;&#x2F;li&gt;
+&lt;li&gt;Easily scalable text and component sizing with &lt;code&gt;rem&lt;&#x2F;code&gt; units in the CSS&lt;&#x2F;li&gt;
+&lt;li&gt;Support for a wide gamut of HTML elements&lt;&#x2F;li&gt;
+&lt;li&gt;Related posts (time-based, because Jekyll) below each post&lt;&#x2F;li&gt;
+&lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;lanyon-features&quot;&gt;Lanyon features&lt;&#x2F;h3&gt;
+&lt;p&gt;In addition to the features of Poole, Lanyon adds the following:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Toggleable sliding sidebar (built with only CSS) via &lt;strong&gt;☰&lt;&#x2F;strong&gt; link in top corner&lt;&#x2F;li&gt;
+&lt;li&gt;Sidebar includes support for textual modules and a dynamically generated navigation with active link support&lt;&#x2F;li&gt;
+&lt;li&gt;Two orientations for content and sidebar, default (left sidebar) and &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;poole&#x2F;lanyon#reverse-layout&quot;&gt;reverse&lt;&#x2F;a&gt; (right sidebar), available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;&#x2F;code&gt; classes&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;poole&#x2F;lanyon#themes&quot;&gt;Eight optional color schemes&lt;&#x2F;a&gt;, available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;&#x2F;code&gt; classes&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;poole&#x2F;lanyon#readme&quot;&gt;Head to the readme&lt;&#x2F;a&gt; to learn more.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;browser-support&quot;&gt;Browser support&lt;&#x2F;h3&gt;
+&lt;p&gt;Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;download&quot;&gt;Download&lt;&#x2F;h3&gt;
+&lt;p&gt;Lanyon is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;poole&#x2F;lanyon&quot;&gt;GitHub repository&lt;&#x2F;a&gt; for downloads, bug reports, and features requests.&lt;&#x2F;p&gt;
+&lt;p&gt;Thanks!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Example content</title>
+		<published>2014-01-01T00:00:00+00:00</published>
+		<updated>2014-01-01T00:00:00+00:00</updated>
+		<link href="http://svavs.github.io/codinfox-zola/blog/example-content/" type="text/html"/>
+		<id>http://svavs.github.io/codinfox-zola/blog/example-content/</id>
+		<content type="html">&lt;div class=&quot;message&quot;&gt;
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+&lt;&#x2F;div&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;&#x2F;a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;&#x2F;em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;&#x2F;strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;&#x2F;h2&gt;
+&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;HTML&#x2F;Element&quot;&gt;Mozilla Developer Network&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;To bold text&lt;&#x2F;strong&gt;, use &lt;code&gt;&amp;lt;strong&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;To italicize text&lt;&#x2F;em&gt;, use &lt;code&gt;&amp;lt;em&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;&#x2F;abbr&gt; should use &lt;code&gt;&amp;lt;abbr&amp;gt;&lt;&#x2F;code&gt;, with an optional &lt;code&gt;title&lt;&#x2F;code&gt; attribute for the full phrase.&lt;&#x2F;li&gt;
+&lt;li&gt;Citations, like &lt;cite&gt;— Mark otto&lt;&#x2F;cite&gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;del&gt;Deleted&lt;&#x2F;del&gt; text should use &lt;code&gt;&amp;lt;del&amp;gt;&lt;&#x2F;code&gt; and &lt;ins&gt;inserted&lt;&#x2F;ins&gt; text should use &lt;code&gt;&amp;lt;ins&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Superscript &lt;sup&gt;text&lt;&#x2F;sup&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;&#x2F;code&gt; and subscript &lt;sub&gt;text&lt;&#x2F;sub&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;heading&quot;&gt;Heading&lt;&#x2F;h2&gt;
+&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;&#x2F;h3&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;code element&lt;&#x2F;code&gt; montes, nascetur ridiculus mus.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Example can be run directly in your JavaScript console&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Create a function that takes two arguments and returns the sum of those arguments&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;var &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;adder &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;= new &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ebcb8b;&quot;&gt;Function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;a&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;b&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;return a + b&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;);&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Call the function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;adder&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;6&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;);&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; &amp;gt; 8&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;lists&quot;&gt;Lists&lt;&#x2F;h3&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;&#x2F;li&gt;
+&lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;&#x2F;li&gt;
+&lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;&#x2F;li&gt;
+&lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;&#x2F;li&gt;
+&lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;&#x2F;p&gt;
+&lt;dl&gt;
+  &lt;dt&gt;HyperText Markup Language (HTML)&lt;&#x2F;dt&gt;
+  &lt;dd&gt;The language used to describe and define the content of a Web page&lt;&#x2F;dd&gt;
+&lt;dt&gt;Cascading Style Sheets (CSS)&lt;&#x2F;dt&gt;
+  &lt;dd&gt;Used to describe the appearance of Web content&lt;&#x2F;dd&gt;
+&lt;dt&gt;JavaScript (JS)&lt;&#x2F;dt&gt;
+  &lt;dd&gt;The programming language used to build advanced Web sites and applications&lt;&#x2F;dd&gt;
+&lt;&#x2F;dl&gt;
+&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;tables&quot;&gt;Tables&lt;&#x2F;h3&gt;
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;&#x2F;p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;&#x2F;th&gt;
+      &lt;th&gt;Upvotes&lt;&#x2F;th&gt;
+      &lt;th&gt;Downvotes&lt;&#x2F;th&gt;
+    &lt;&#x2F;tr&gt;
+  &lt;&#x2F;thead&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Totals&lt;&#x2F;td&gt;
+      &lt;td&gt;21&lt;&#x2F;td&gt;
+      &lt;td&gt;23&lt;&#x2F;td&gt;
+    &lt;&#x2F;tr&gt;
+  &lt;&#x2F;tfoot&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alice&lt;&#x2F;td&gt;
+      &lt;td&gt;10&lt;&#x2F;td&gt;
+      &lt;td&gt;11&lt;&#x2F;td&gt;
+    &lt;&#x2F;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bob&lt;&#x2F;td&gt;
+      &lt;td&gt;4&lt;&#x2F;td&gt;
+      &lt;td&gt;3&lt;&#x2F;td&gt;
+    &lt;&#x2F;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Charlie&lt;&#x2F;td&gt;
+      &lt;td&gt;7&lt;&#x2F;td&gt;
+      &lt;td&gt;9&lt;&#x2F;td&gt;
+    &lt;&#x2F;tr&gt;
+  &lt;&#x2F;tbody&gt;
+&lt;&#x2F;table&gt;
+&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;math&quot;&gt;Math&lt;&#x2F;h3&gt;
+&lt;p&gt;Test math equations:&lt;&#x2F;p&gt;
+&lt;p&gt;$$ J_\alpha(x) = \sum\limits_{m=0}^\infty \frac{(-1)^m}{m! , \Gamma(m + \alpha + 1)}{\bigl({\frac{x}{2}}\bigr)}^{2 m + \alpha} $$&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Want to see something else added? &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;poole&#x2F;poole&#x2F;issues&#x2F;new&quot;&gt;Open an issue.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>What&#x27;s Jekyll?</title>
+		<published>2013-12-31T00:00:00+00:00</published>
+		<updated>2013-12-31T00:00:00+00:00</updated>
+		<link href="http://svavs.github.io/codinfox-zola/blog/whats-jekyll/" type="text/html"/>
+		<id>http://svavs.github.io/codinfox-zola/blog/whats-jekyll/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;jekyllrb.com&quot;&gt;Jekyll&lt;&#x2F;a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;From &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mojombo&#x2F;jekyll&#x2F;blob&#x2F;master&#x2F;README.markdown&quot;&gt;the project&#x27;s readme&lt;&#x2F;a&gt;:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;It&#x27;s an immensely useful tool and one we encourage you to use here with Lanyon.&lt;&#x2F;p&gt;
+&lt;p&gt;Find out more by &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mojombo&#x2F;jekyll&quot;&gt;visiting the project on GitHub&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
