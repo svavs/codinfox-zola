@@ -10,6 +10,8 @@
 <html lang="en-us">
 
   <head>
+    {{ scripts::analytics_script() }}
+    
     {{ head::links() }}
     {{ head::meta() }}
 
@@ -73,7 +75,6 @@
 
     {{ scripts::sidebar_script() }}
 
-    {{ scripts::analytics_script() }}
 
   </body>
 
