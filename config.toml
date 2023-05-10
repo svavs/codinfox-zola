@@ -64,6 +64,12 @@ taxonomies = [
 languages = [
   {code = "it", feed = true, search = false},
 ]
+# Uncomment the lines here below to have the languages section for Zola 0.17
+# [languages]
+# [languages.it]
+# title = "Il mio sito"
+# generate_feed = true
+# build_search_index = false
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
