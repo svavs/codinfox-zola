@@ -3,17 +3,16 @@ on: push
 
 jobs:
   build:
-    name: shalzz/zola-deploy-action
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master'
     steps:
-      - name: 'Checkout'
-        uses: actions/checkout@master
+      - name: checkout
+        uses: actions/checkout@v3.0.0
       - name: 'Build and deploy'
-        uses: shalzz/zola-deploy-action@master
+        uses: shalzz/zola-deploy-action@v0.17.2
         env:
           PAGES_BRANCH: gh-pages
           BUILD_DIR: .
           BUILD_FLAGS: --drafts
-          TOKEN: ${{ secrets.BUILD }}
+          GITHUB_TOKEN: ${{ secrets.BUILD }}
 
